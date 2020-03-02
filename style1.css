@@ -1,0 +1,87 @@
+.container-fluid {
+  background-color: darkgray;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.carousel-control-prev-icon {
+  background-color: red;
+}
+
+.carousel-control-next-icon {
+  background-color: red;
+}
+
+
+.carousel-inner img {
+  width: 500px;
+  height: 400px;
+  margin-left: 400px;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  -webkit-transition: 0.1s ease-in-out left;
+  -moz-transition: 0.1s ease-in-out left;
+  -o-transition: 0.1s ease-in-out left;
+  transition: 0.1s ease-in-out left;
+}
+
+.carouselModify {
+  background-color: white;
+}
+
+  /*.footerrow {
+  	height: 200px;
+  	width: 100%;
+  	border: 1px solid green;
+  	margin-left: 0px;
+  }*/
+
+  .bg-light {
+    background-color: #d07575fa!important
+}
+
+.content {
+   text-align: center;
+   background-color: #8e8484;
+}
+
+.tab {
+  background-color: pink;
+}
+
+.modeldiv {
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-family: sans-serif;
+  
+}
+
+.footerdiv {
+  text-align: center;
+  background-color: #736d62;
+  height: 100%;
+  width: 100%;
+    
+}
+
+.footerclass {
+  /*border: 1px solid black;*/
+}
+
+.navimg {
+  width: 50px;
+  height: 45px;
+  margin-left: 90px;
+  margin-right: 400px;
+}
+
+#myModal {
+  color: orange;
+}
+
+.tooglerow {
+  height: 200px;
+}

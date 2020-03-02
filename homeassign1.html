@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>homeassign</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <a class="navbar-brand" href="#"><img class="navimg" src="images/images (1).png"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collase navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Link</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Dropdown
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#">Action</a>
+		          <a class="dropdown-item" href="#">Another action</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="#">Something else here</a>
+		        </div>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+		      </li>
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		      <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">SignUp</button>
+		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+		    </form>
+		  </div>
+		</nav>
+		<div id="demo" class="carousel slide" data-ride="carousel">
+
+		  <!-- Indicators -->
+		  <ul class="carousel-indicators">
+		    <li data-target="#demo" data-slide-to="0" class="active"></li>
+		    <li data-target="#demo" data-slide-to="1"></li>
+		    <li data-target="#demo" data-slide-to="2"></li>
+		  </ul>
+		  
+		  <!-- The slideshow -->
+		  <div class="carousel-inner carouselModify">
+		    <div class="carousel-item active">
+		      <img src="images/applem.jpeg" alt="Los Angeles">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="images/camera.jpeg" alt="Chicago">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="images/shoose.jpeg" alt="New York">
+		    </div>
+		  </div>
+		  
+		  <!-- Left and right controls -->
+		  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+		    <span class="carousel-control-prev-icon"></span>
+		  </a>
+		  <a class="carousel-control-next" href="#demo" data-slide="next">
+		    <span class="carousel-control-next-icon"></span>
+		  </a>
+		</div>
+		<div class="card-deck">
+		  <div class="card">
+		    <img class="card-img-top" src="images/rolex.jpeg" alt="Card image">
+		    <div class="card-body">
+		      <h4 class="card-title">John Doe</h4>
+		      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+		      <a href="#" class="btn btn-primary">Buy</a>
+		      <a href="#" class="btn btn-success">Cart</a>
+		      <a href="#" class="btn btn-danger">Cancel</a>
+		    </div>
+		    </div>
+		  <div class="card">
+		    <img class="card-img-top" src="images/rolex.jpeg" alt="Card image">
+		    <div class="card-body">
+		      <h4 class="card-title">John Doe</h4>
+		      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+		      <a href="#" class="btn btn-primary">Buy</a>
+		      <a href="#" class="btn btn-success">Cart</a>
+		      <a href="#" class="btn btn-danger">Cancel</a>
+		      <button type="button" class="btn btn-warning">
+				  Likes <span class="badge badge-light">251</span>
+			  </button>
+		    </div>
+		    </div>
+		  <div class="card">
+		    <img class="card-img-top" src="images/rolex.jpeg" alt="Card image">
+		    <div class="card-body">
+		      <h4 class="card-title">John Doe</h4>
+		      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+		      <a href="#" class="btn btn-primary">Buy</a>
+		      <a href="#" class="btn btn-success">Cart</a>
+		      <a href="#" class="btn btn-danger">Cancel</a>
+		    </div>
+		    </div>
+		   
+		</div>
+		
+			<div class="row tooglerow ">
+			    <div class="col-lg-8 bg-success">
+			    	<!-- Tab links -->
+					<div class="tooglediv" style="height: 132px;">
+					  
+					  <!-- Nav tabs -->
+					  <ul class="nav nav-tabs">
+					    <li class="nav-item">
+					      <a class="nav-link active" data-toggle="tab" href="#home">Tab 1</a>
+					    </li>
+					    <li class="nav-item">
+					      <a class="nav-link" data-toggle="tab" href="#menu1">Tab 2</a>
+					    </li>
+					    <li class="nav-item">
+					      <a class="nav-link" data-toggle="tab" href="#menu2">Tab 3</a>
+					    </li>
+					  </ul>
+
+					  <!-- Tab panes -->
+					  <div class="tab-content">
+					    <div id="home" class="container tab-pane active"><br>
+					      <h4>HOME</h4>
+					      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					    </div>
+					    <div id="menu1" class="container tab-pane fade"><br>
+					      <h3>Menu 1</h3>
+					      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					    </div>
+					    <div id="menu2" class="container tab-pane fade"><br>
+					      <h3>Menu 2</h3>
+					      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+					    </div>
+					  </div>
+					</div>										 
+					
+			    </div>
+			    <div class="col-lg-4">
+			    	<div class="modeldiv">
+					  <h2>Modal Example -</h2>
+					  <!-- Button to Open the Modal -->
+					  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+					    Open modal
+					  </button>
+
+					  <!-- The Modal -->
+					  <div class="modal" id="myModal">
+					    <div class="modal-dialog">
+					      <div class="modal-content">
+					      
+					        <!-- Modal Header -->
+					        <div class="modal-header">
+					          <h4 class="modal-title"> Hey! Check BootStrap4 </h4>
+					          <button type="button" class="close" data-dismiss="modal">&times;</button>
+					        </div>
+					        
+					        <!-- Modal body -->
+					        <div class="modal-body">
+					          Please use bootstrap4 to get responsive web pages..
+					        </div>
+					        
+					        <!-- Modal footer -->
+					        <div class="modal-footer">
+					          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+					        </div>
+					        
+					      </div>
+					    </div>
+					  </div>
+					  
+					</div>
+			    </div>
+			</div>
+		        
+			  <div class="row content">
+			    <div class="col-lg-12 divcontent">Content
+			      <p>
+				  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+				    Link with href
+				  </a>
+				  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+				    Button with data-target
+				  </button>
+				</p>
+				<div class="collapse" id="collapseExample">
+				  <div class="card card-body">
+				    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+				  </div>
+				</div>
+			    </div>
+			  </div>
+			    <div class="footerdiv">
+				  <h4>Footer</h4>
+				  <p>Footer information goes here -</p>
+				  <div class="row footerrow">
+				  	<div class="col-lg-4 footerclass">
+				  		<b>MY LAST BY PRODUCT :)</b><br>
+                           iPhone-X<br>
+                           28/02/2020 18:30
+				  	</div>
+				  	<div class="col-lg-4 footerclass">
+				  		<b>MY FAV TEAM :)</b>
+				  		<ul>
+				  			<li>Chennai Super King</li>
+				  			<li>Mumbai Indians</li>
+				  		</ul>
+				  	</div>
+				  	<div class="col-lg-4 footerclass">
+				  		<b>My FAV PLAYERS :)</b>
+				  		<ul>
+				  		    <li>Sachin Tendulkar</li>
+				  		    <li>Virendra Sehwag</li>
+				  		</ul>
+				  	</div>
+				  </div>
+				</div>	
+	    </div>
+	    
+
+</body>
+</html>

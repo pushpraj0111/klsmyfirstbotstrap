@@ -1,0 +1,52 @@
+form {
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 25px;
+	margin-left: 450px;
+	border: 1px solid green;
+	width: 400px;
+	height: 300px; 
+}
+
+.table table-bordered {
+    padding-left: 0px;
+}
+
+
+h2 {
+	text-align: center;
+	text-decoration-line: underline;
+}
+
+.navbar {
+	width: 100%;
+	background-color: blue;
+}
+
+.bg-light {
+    background-color: #7bb5b5!important
+}
+
+.carousel-inner img {
+      width: 540px;
+      height: 500px;
+      margin-left: 360px;
+      
+      margin-bottom: 5px;
+  }
+
+.d-block {
+     width: 33%;
+}
+
+.card {
+	float: left;
+	width: 250px;
+	margin-left: 70px;
+	margin-right: 50px;
+}
+
+.imacontainer2 {
+	margin-top: 20px;
+}
+
